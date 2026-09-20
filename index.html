@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>桃園城市創意中心 | TAOYUAN CREATIVE HUB</title>
+  <!-- Google Fonts: Noto Sans TC & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ================= HEADER NAVIGATION ================= -->
+  <header class="site-header">
+    <div class="header-container">
+      <!-- Brand Logo -->
+      <a href="#" class="brand-logo">
+        <div class="logo-mark">
+          <svg viewBox="0 0 32 32" width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="32" height="32" rx="6" fill="#113f48"/>
+            <path d="M6 11C11 8.5 21 8.5 26 11" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M7 16C12 13.5 20 13.5 25 16" stroke="#c83a1e" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M8 21C12 19 20 19 24 21" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round"/>
+            <circle cx="23" cy="21" r="1.5" fill="#c83a1e"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">桃園城市創意中心</span>
+          <span class="logo-en">TAOYUAN CREATIVE HUB</span>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="main-nav">
+        <ul>
+          <li class="active"><a href="#home">首頁</a></li>
+          <li><a href="#about">館舍介紹</a></li>
+          <li><a href="#activities">最新活動</a></li>
+          <li><a href="#activities">展演與工作坊</a></li>
+          <li><a href="#register">活動報名</a></li>
+          <li><a href="#register">場地租借</a></li>
+          <li><a href="#transport">交通指引</a></li>
+        </ul>
+      </nav>
+
+      <!-- Utility Actions -->
+      <div class="header-actions">
+        <!-- Search Button -->
+        <button class="icon-btn" aria-label="搜尋">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+
+        <!-- Language Switcher -->
+        <div class="lang-switch">
+          <button class="lang-btn active">中文</button>
+          <button class="lang-btn">EN</button>
+        </div>
+
+        <!-- Service Portal Button -->
+        <a href="#register" class="btn-service">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+          </svg>
+          <span>民眾服務專區</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="hero-section" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <!-- Exhibition Subtitle / Badges -->
+      <div class="hero-meta-top">
+        <span class="badge-status">
+          <span class="dot-live"></span>
+          開放參觀中・免費入場
+        </span>
+        <span class="hero-series-tag">ANNUAL FLAGSHIP EXHIBITION</span>
+      </div>
+
+      <!-- Main Exhibition Title -->
+      <h1 class="hero-title">
+        2025 桃園城市創意設計展：<br>
+        聚落、數位與未來生活
+      </h1>
+
+      <!-- Info Ribbon Box -->
+      <div class="hero-info-bar">
+        <div class="info-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+          </svg>
+          <span>2025.04.15 — 07.20</span>
+        </div>
+        <span class="bar-divider"></span>
+        <div class="info-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+          <span>主展館 1F-2F 策展大廳</span>
+        </div>
+        <span class="bar-divider"></span>
+        <div class="info-item">
+          <span>年度特展現正盛大展出中</span>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="hero-cta-group">
+        <a href="#activities" class="btn btn-primary">
+          立即探索特展
+          <span class="arrow">→</span>
+        </a>
+        <a href="#register" class="btn btn-glass">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+          </svg>
+          預約團體導覽
+        </a>
+      </div>
+
+      <!-- Bottom Controls & Notice -->
+      <div class="hero-bottom-bar">
+        <!-- Slider Pagination & Arrows -->
+        <div class="slider-controls">
+          <button class="slider-arrow" aria-label="上一張">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="19" y1="12" x2="5" y2="12"></line>
+              <polyline points="12 19 5 12 12 5"></polyline>
+            </svg>
+          </button>
+          <button class="slider-arrow" aria-label="下一張">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </button>
+
+          <div class="slider-indicators">
+            <span class="indicator-bar active"></span>
+            <span class="indicator-dot"></span>
+            <span class="indicator-dot"></span>
+          </div>
+
+          <span class="slider-counter">01 / 03</span>
+        </div>
+
+        <!-- Special Notice Pill -->
+        <div class="hero-notice-pill">
+          <svg class="notice-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            <polyline points="9 12 11 14 15 10"></polyline>
+          </svg>
+          <div class="notice-text">
+            <strong>週末特別活動：建築師策展導覽</strong>
+            <span>每週六 15:00 現場大廳集合</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT SECTION ================= -->
+  <section class="about-section" id="about">
+    <div class="content-container">
+      <div class="section-intro">
+        <span class="section-badge">ABOUT TAOYUAN CREATIVE HUB</span>
+        <h2 class="section-headline">
+          城市創意的孵化基地，<br>
+          連結在地文化與未來想像
+        </h2>
+        <p class="section-desc">
+          桃園市城市創意中心致力於推動在地文化創新、青年設計能量與跨界科技藝術。我們打造一座開放、互動且具啟發性的公共交流場域，集結設計展覽、前瞻工作坊、共創聚落與公共論壇，讓每位走進中心的市民與創作者，都能在這裡發現城市進化的嶄新可能。
+        </p>
+      </div>
+
+      <!-- 3 Pillars Cards -->
+      <div class="pillars-grid">
+        <!-- Card 1 -->
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1f2937" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"></path>
+              <path d="M9 21V12h6v9"></path>
+            </svg>
+          </div>
+          <span class="pillar-number">01 / CURATION</span>
+          <h3 class="pillar-title">多元策展演藝</h3>
+          <p class="pillar-text">
+            常態引進國際與在地當代設計展演，連結高峰特展與跨領域策展人，策畫多元富代文化思維。
+          </p>
+          <a href="#" class="pillar-link">
+            探索展演時程 <span class="arrow">→</span>
+          </a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="pillar-card">
+          <div class="pillar-icon-box icon-red">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c83a1e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon>
+              <line x1="12" y1="22" x2="12" y2="15.5"></line>
+              <polyline points="22 8.5 12 15.5 2 8.5"></polyline>
+              <polyline points="2 15.5 12 8.5 22 15.5"></polyline>
+            </svg>
+          </div>
+          <span class="pillar-number">02 / INCUBATION</span>
+          <h3 class="pillar-title">青年共創育成</h3>
+          <p class="pillar-text">
+            提供完善數位實作機具、設計自造工作坊與跨界創作媒合資源，為新世代創意人才賦能。
+          </p>
+          <a href="#" class="pillar-link link-red">
+            加入培訓計畫 <span class="arrow">→</span>
+          </a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="pillar-card">
+          <div class="pillar-icon-box icon-green">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+              <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
+            </svg>
+          </div>
+          <span class="pillar-number">03 / SUSTAINABILITY</span>
+          <h3 class="pillar-title">永續城市生活</h3>
+          <p class="pillar-text">
+            倡導循環設計與生活共感實踐，推動城市設計思維融入市民日常，形塑前瞻生活美學。
+          </p>
+          <a href="#" class="pillar-link">
+            了解共好倡議 <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FEATURED ACTIVITIES ================= -->
+  <section class="activities-section" id="activities">
+    <div class="content-container">
+      <!-- Section Header with Slider Navigation -->
+      <div class="activities-header">
+        <div class="activities-title-group">
+          <span class="section-badge">FEATURED ACTIVITIES</span>
+          <h2 class="section-headline">精選活動與展覽專題</h2>
+        </div>
+
+        <div class="activities-slider-nav">
+          <div class="progress-track">
+            <span class="progress-thumb"></span>
+          </div>
+          <button class="nav-circle-btn" aria-label="向左滾動">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="19" y1="12" x2="5" y2="12"></line>
+              <polyline points="12 19 5 12 12 5"></polyline>
+            </svg>
+          </button>
+          <button class="nav-circle-btn active" aria-label="向右滾動">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- 4 Event Cards Grid -->
+      <div class="events-grid">
+        <!-- Event Card 1 -->
+        <article class="event-card">
+          <div class="event-thumb">
+            <img src="assets/event1.jpg" alt="當代數位生成藝術工作坊">
+            <span class="badge-tag tag-hot">熱門推薦</span>
+            <span class="badge-category">專業工作坊</span>
+          </div>
+          <div class="event-body">
+            <div class="event-time">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              <span>本週六 14:00 - 17:00</span>
+            </div>
+            <h3 class="event-title">當代數位生成藝術工作坊</h3>
+            <p class="event-desc">
+              帶領學員運用即時運算編程探索視覺設計，從幾何結構中生成獨一無二的數...
+            </p>
+            <a href="#" class="btn-event">立即報名</a>
+          </div>
+        </article>
+
+        <!-- Event Card 2 -->
+        <article class="event-card">
+          <div class="event-thumb">
+            <img src="assets/event2.jpg" alt="青埔設計對話沙龍：永續建材與未來城市">
+            <span class="badge-tag tag-open">開放報名</span>
+            <span class="badge-category">名家講座</span>
+          </div>
+          <div class="event-body">
+            <div class="event-time">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>2025.05.02 (五) 19:00</span>
+            </div>
+            <h3 class="event-title">青埔設計對話沙龍：永續建材與未來城市</h3>
+            <p class="event-desc">
+              邀請國際建築師與綠能專家，剖析循環營建與次世代低碳智居的生活想像。
+            </p>
+            <a href="#" class="btn-event">查看詳情</a>
+          </div>
+        </article>
+
+        <!-- Event Card 3 -->
+        <article class="event-card">
+          <div class="event-thumb">
+            <img src="assets/event3.jpg" alt="兒童與親子生活美學實作營">
+            <span class="badge-tag tag-warn">剩餘名額 5位</span>
+            <span class="badge-category">親子美育</span>
+          </div>
+          <div class="event-body">
+            <div class="event-time">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              <span>每週日 10:30 - 12:00</span>
+            </div>
+            <h3 class="event-title">兒童與親子生活美學實作營</h3>
+            <p class="event-desc">
+              透過觸覺、色彩排列與立體構成，啟發學童對日常居住空間尺度與度的觀察...
+            </p>
+            <a href="#" class="btn-event">立即預約</a>
+          </div>
+        </article>
+
+        <!-- Event Card 4 -->
+        <article class="event-card">
+          <div class="event-thumb">
+            <img src="assets/event4.jpg" alt="在地工藝新生代：木藝與金工聯展">
+            <span class="badge-tag tag-free">免費參觀</span>
+            <span class="badge-category">主題特展</span>
+          </div>
+          <div class="event-body">
+            <div class="event-time">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>常態展出至 06.30</span>
+            </div>
+            <h3 class="event-title">在地工藝新生代：木藝與金工聯展</h3>
+            <p class="event-desc">
+              匯聚桃園大溪木藝新傳人與當代金工創作者，呈現傳統匠藝與現代美學的融...
+            </p>
+            <a href="#" class="btn-event">瀏覽展介</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ESSENTIAL GATEWAYS SECTION ================= -->
+  <section class="gateways-section" id="register">
+    <div class="content-container">
+      <div class="gateways-header">
+        <div class="gateways-title-group">
+          <span class="section-badge">ESSENTIAL GATEWAYS</span>
+          <h2 class="section-headline">市民與創作者專區</h2>
+        </div>
+        <p class="gateways-subtitle">
+          提供迅速流暢的數位便民服務，從線上活動預約、館舍空間參訪到最新藝文快訊一手掌握。
+        </p>
+      </div>
+
+      <!-- 3 Gateway Portals Grid -->
+      <div class="gateways-grid">
+        <!-- Portal Card 1 -->
+        <div class="gateway-card">
+          <div class="card-header-row">
+            <div class="card-icon-avatar avatar-orange">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#c83a1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 20h9"></path>
+                <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+              </svg>
+            </div>
+            <span class="status-pill pill-orange">即時線上預約</span>
+          </div>
+
+          <h3 class="gateway-title">活動報名</h3>
+          <span class="gateway-en">EVENT REGISTRATION</span>
+          <p class="gateway-desc">
+            搶先預約各類展覽導覽、名家講座與手作工藝工作坊。系統化登錄、出席通知即刻確認。
+          </p>
+
+          <div class="gateway-actions">
+            <a href="#" class="btn-portal btn-terracotta">
+              立即瀏覽可報名場次 <span class="arrow">→</span>
+            </a>
+            <a href="#" class="btn-portal btn-ghost">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              查閱報名紀錄
+            </a>
+          </div>
+        </div>
+
+        <!-- Portal Card 2 -->
+        <div class="gateway-card">
+          <div class="card-header-row">
+            <div class="card-icon-avatar avatar-blue">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 21h18"></path>
+                <path d="M5 21V7l7-4 7 4v14"></path>
+                <path d="M9 10h1"></path>
+                <path d="M9 14h1"></path>
+                <path d="M9 18h1"></path>
+                <path d="M14 10h1"></path>
+                <path d="M14 14h1"></path>
+                <path d="M14 18h1"></path>
+              </svg>
+            </div>
+            <span class="status-pill pill-blue">青埔文化地標</span>
+          </div>
+
+          <h3 class="gateway-title">館舍介紹</h3>
+          <span class="gateway-en">VENUE & FACILITY INTRODUCTION</span>
+          <p class="gateway-desc">
+            探索建築空間美學、樓層展區分布、共創實驗室與開放時段。體驗當代設計與光影的對話。
+          </p>
+
+          <div class="gateway-actions">
+            <a href="#" class="btn-portal btn-teal">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+              3D 虛擬導覽
+            </a>
+            <a href="#" class="btn-portal btn-ghost">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="3" y1="9" x2="21" y2="9"></line>
+                <line x1="9" y1="21" x2="9" y2="9"></line>
+              </svg>
+              樓層指南與空間借用概況
+            </a>
+          </div>
+        </div>
+
+        <!-- Portal Card 3 -->
+        <div class="gateway-card">
+          <div class="card-header-row">
+            <div class="card-icon-avatar avatar-cyan">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0891b2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+              </svg>
+            </div>
+            <span class="status-pill pill-cyan">即時公告更新</span>
+          </div>
+
+          <h3 class="gateway-title">最新活動</h3>
+          <span class="gateway-en">LATEST EVENTS & NEWS</span>
+          <p class="gateway-desc">
+            掌握中心即時展演動態、藝文快訊與市民共創計畫公告。連結國際策展脈動與地方文化活力。
+          </p>
+
+          <div class="gateway-actions">
+            <a href="#" class="btn-portal btn-dark-slate">
+              近期公告一覽 <span class="arrow">→</span>
+            </a>
+            <a href="#" class="btn-portal btn-ghost">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              本月份活動行事曆下載 (PDF)
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER SECTION ================= -->
+  <footer class="site-footer">
+    <div class="content-container">
+      <div class="footer-grid">
+        <!-- Col 1: About & Hours -->
+        <div class="footer-col col-about">
+          <div class="footer-brand">
+            <h3 class="brand-name">桃園城市創意中心</h3>
+            <span class="brand-tag">TAOYUAN CREATIVE HUB</span>
+          </div>
+          <p class="footer-desc">
+            串聯青埔特區文化軸線與地方創造力，構築兼具人文厚度與當代前瞻思維的城市共創實驗場域。
+          </p>
+          <div class="footer-hours">
+            <div class="hours-title-row">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              <strong>開放時間</strong>
+            </div>
+            <span class="hours-detail">週二至週日 09:00 - 18:00 (每週一固定休館)</span>
+          </div>
+          <!-- Social Media Links -->
+          <div class="social-links">
+            <a href="#" class="social-btn" aria-label="Official Website">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="Instagram">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="YouTube">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+              </svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="Facebook">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Contact & Transport -->
+        <div class="footer-col col-contact" id="transport">
+          <h3 class="col-title">聯絡與交通資訊</h3>
+          <ul class="contact-list">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>桃園市中壢區高鐵南路二段 (青埔特區文化園區)</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <span>(03) 287-1234 / 傳真：(03) 287-5678</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>service@creativehub.tycg.gov.tw</span>
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="3" width="16" height="16" rx="2"></rect>
+                <path d="M4 11h16"></path>
+                <path d="M12 3v8"></path>
+                <path d="m8 19-2 3"></path>
+                <path d="m16 19 2 3"></path>
+              </svg>
+              <span>高鐵桃園站 / 機場捷運 A18、A19 站步行約 8-12 分鐘</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Newsletter & Agency -->
+        <div class="footer-col col-newsletter">
+          <h3 class="col-title">訂閱電子報</h3>
+          <p class="newsletter-desc">
+            搶先獲得當期特展、國際跨地域論壇與工作坊報名資訊。
+          </p>
+          <form class="newsletter-form" onsubmit="event.preventDefault(); alert('感謝您的訂閱！');">
+            <input type="email" placeholder="請輸入您的電子信箱" required>
+            <button type="submit" class="btn-subscribe">訂閱</button>
+          </form>
+          <div class="agency-info">
+            <p>指導單位：桃園市政府</p>
+            <p>主辦單位：桃園市政府文化局、桃園市政府青年事務局</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Legal & Copyright Bar -->
+      <div class="footer-bottom">
+        <div class="copyright">
+          © 2025 桃園城市創意中心 Taoyuan Creative Hub. 版權所有。
+        </div>
+        <div class="footer-links">
+          <a href="#">隱私權保護政策</a>
+          <a href="#">資訊安全政策</a>
+          <a href="#">政府網站公開</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
